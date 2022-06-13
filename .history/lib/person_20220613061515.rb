@@ -8,14 +8,13 @@ class Person
   def name
     @name
   end
-
-  def job=(job)
-    @job = job
+  def name=(name)
+    @name = name
   end
 
   # getter method
-  def job
-    @job
+  def name
+    @name
   end
 
 end
