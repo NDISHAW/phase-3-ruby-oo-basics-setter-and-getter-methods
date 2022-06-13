@@ -7,15 +7,13 @@ class Person
   # getter method
   def name
     @name
-  end
-
-  def job=(job)
-    @job = job
+  enddef name=(name)
+    @name = name
   end
 
   # getter method
-  def job
-    @job
+  def name
+    @name
   end
 
 end

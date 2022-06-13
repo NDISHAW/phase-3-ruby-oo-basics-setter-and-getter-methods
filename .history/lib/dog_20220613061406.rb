@@ -7,12 +7,12 @@ class Dog
   def name
     @name
   end
-    def breed=(breed)
-    @breed = breed
+    def name=(name)
+    @name = name
   end
 
   # getter method
-  def breed
-    @breed
+  def name
+    @name
   end
 end

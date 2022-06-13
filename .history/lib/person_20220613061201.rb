@@ -9,17 +9,7 @@ class Person
     @name
   end
 
-  def job=(job)
-    @job = job
-  end
-
-  # getter method
-  def job
-    @job
-  end
-
 end
 
 kanye = Person.new
-kanye.name="kanye"
-p kanye
+kanye.name=
